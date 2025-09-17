@@ -1,0 +1,63 @@
+// styles.scss
+.baner-container {
+  max-width: 50vw;
+  padding: 4rem;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  animation: 2.5s ease-out fadeIn;
+
+  div {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 10px;
+
+    p {
+      margin: 10px 0;
+    }
+
+    img {
+      max-width: 1000px;
+      height: auto;
+      border-radius: 4px;
+      max-height: 800px;
+    }
+  }
+
+  a {
+    justify-content: center;
+    display: grid;
+  }
+}
+.baner-container p{
+  color: white;
+}
+
+
+@media (max-width: 1020px) {
+.baner-container div img {
+
+    max-width: 650px;
+    
+}
+
+}
+
+@media (max-width: 675px){
+  .baner-container div img {
+
+    max-width: 450px;
+    
+}}
+@media (max-width: 480px) {
+  p {
+    font-size: 0.9em;
+  }
+  .baner-container div img {
+
+    max-width: 90vw;
+    
+}
+}
+

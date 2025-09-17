@@ -1,0 +1,94 @@
+{
+  "marketplace_items": [
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "img": "https://example.com/images/headphones-wireless-blue.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/wireless-headphones-1234"
+    },
+    {
+      "id": 2,
+      "name": "Vintage Leather Jacket",
+      "img": "https://example.com/images/leather-jacket-brown.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/vintage-leather-jacket-5678"
+    },
+    {
+      "id": 3,
+      "name": "Smart Home Security Camera",
+      "img": "https://example.com/images/security-camera-white.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/smart-security-camera-9012"
+    },
+    {
+      "id": 4,
+      "name": "Handmade Ceramic Coffee Mug",
+      "img": "https://example.com/images/ceramic-mug-blue.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/ceramic-coffee-mug-3456"
+    },
+    {
+      "id": 5,
+      "name": "Gaming Mechanical Keyboard",
+      "img": "https://example.com/images/keyboard-gaming-rgb.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/gaming-keyboard-7890"
+    },
+    {
+      "id": 6,
+      "name": "Organic Cotton T-Shirt",
+      "img": "https://example.com/images/tshirt-organic-white.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/organic-cotton-tshirt-2345"
+    },
+    {
+      "id": 7,
+      "name": "Portable Phone Charger",
+      "img": "https://example.com/images/phone-charger-portable.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/portable-charger-6789"
+    },
+    {
+      "id": 8,
+      "name": "Artisan Wooden Cutting Board",
+      "img": "https://example.com/images/cutting-board-wood.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/wooden-cutting-board-0123"
+    },
+    {
+      "id": 9,
+      "name": "Fitness Tracking Smartwatch",
+      "img": "https://example.com/images/smartwatch-fitness-black.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/fitness-smartwatch-4567"
+    },
+    {
+      "id": 10,
+      "name": "Indoor Plant Succulent Set",
+      "img": "https://example.com/images/succulent-plants-set.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/succulent-plant-set-8901"
+    },
+    {
+      "id": 11,
+      "name": "Stainless Steel Water Bottle",
+      "img": "https://example.com/images/water-bottle-steel.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/steel-water-bottle-2468"
+    },
+    {
+      "id": 12,
+      "name": "Wireless Phone Stand",
+      "img": "https://example.com/images/phone-stand-wireless.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/wireless-phone-stand-1357"
+    },
+    {
+      "id": 13,
+      "name": "Scented Candle Gift Set",
+      "img": "https://example.com/images/candle-set-lavender.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/scented-candle-set-9753"
+    },
+    {
+      "id": 14,
+      "name": "Bluetooth Portable Speaker",
+      "img": "https://example.com/images/speaker-bluetooth-red.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/bluetooth-speaker-8642"
+    },
+    {
+      "id": 15,
+      "name": "Ergonomic Office Chair",
+      "img": "https://example.com/images/office-chair-ergonomic.jpg",
+      "marketplace_link": "https://marketplace.example.com/item/ergonomic-chair-7531"
+    }
+  ]
+}

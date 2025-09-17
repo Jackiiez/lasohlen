@@ -1,0 +1,30 @@
+{
+  "barca": [
+     {
+      "id": 1,
+
+      "img": "barca1.jpg"
+
+      
+    },
+      
+    
+    
+   
+     {
+      "id": 2,
+
+ 
+      "img": "barca2.jpg"
+  
+    },
+    {
+      "id": 3,
+
+      "img": "barca3.jpg"
+
+    }
+    
+ 
+  ]
+}

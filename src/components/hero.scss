@@ -1,0 +1,442 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+}
+
+/* Add this to your CSS file */
+
+
+
+
+.coming-soon-container {
+    // Styles for the container
+    color: #fff; // Example style
+    padding: 20px; // Example style
+    display: grid
+;
+ margin-top: 3rem;
+
+    justify-content: start;
+    .movies-grid {
+      flex-direction: row;
+    gap: 20px;
+    display: flex
+;
+    overflow-x: auto;
+    max-width: 100%;
+
+        .movie-card {
+            width: 250px; // Set a fixed width for the card
+            flex-shrink: 0; // Prevent shrinking
+
+            video {
+                width: 100%; // Make video responsive to card width
+                height: auto; // Maintain aspect ratio
+                object-fit: cover; // Cover the area without distortion
+                border-radius: 1rem; // Optional styling
+                transition: transform 0.2s; // Optional hover effect
+                    height: 99%;
+
+            }
+            video:fullscreen{
+              object-fit: none;
+            }
+
+            .movie-info {
+                padding: 10px; // Padding around text
+
+                h3 {
+                    font-size: 16px; // Heading size
+                    margin: 0; // Remove default margin
+                    font-weight: 600; // Bold text
+                }
+
+                p {
+                    color: #bbb; // Text color
+                    font-size: 14px; // Text size
+                    margin-top: 5px; // Spacing above paragraph
+                }
+            }
+
+       
+          
+        }
+    }
+}
+.content-container{
+      margin-bottom: 5rem;
+
+}
+.movies-grid{
+  overflow-y: hidden;
+ 
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+.img {
+  transform: scale(1.05);
+
+}
+
+h1,
+.img {
+
+
+  transition: transform 0.2s, color 0.2s;
+
+
+}
+
+.intro-text {
+  max-width: 75vw;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+.comming-soon-container {
+  color: #fff;
+  padding: 20px;
+
+  h2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+
+  .movies-grid {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+
+  .movie-card {
+
+
+    width: 250px;
+    flex-shrink: 0;
+
+
+
+    img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+
+    .movie-info {
+      padding: 10px;
+
+      h3 {
+        font-size: 16px;
+        margin: 0;
+        font-weight: 600;
+      }
+
+      p {
+        color: #bbb;
+        font-size: 14px;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+h1:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.content-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.about {
+  flex: 1;
+  text-align: center;
+}
+
+.about h2 {
+  color: white;
+  font-size: 5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about p {
+  font-size: 2.5rem;
+  margin-right: 3rem;
+  color: white;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  gap: 1rem;
+}
+
+.main-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main-image {
+
+  width: 25vh;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.grid-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.grid-images img {
+  width: 25vh;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin: 0;
+  justify-self: center;
+  align-self: center;
+}
+
+.champagne {
+  margin-bottom: 0.5rem;
+}
+
+.movie-card {
+
+  transform: translateY(10px);
+}
+
+.movie-card img {
+
+  margin-top: 1rem;
+
+  transition: transform 0.2s, color 0.2s;
+
+
+}
+
+.movie-card img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.movie-card.visible {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.hero {
+  color: #fff;
+  text-align: center;
+  background-image: url(/lars.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  place-items: center;
+  height: 100vh;
+  animation: 2.5s ease-out fadeIn;
+
+  padding-top: 15rem;
+  padding-right: 35rem;
+}
+
+.hero-content {
+  max-width: 80vw;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.hero-content .cta-button {
+  background-color: #0070f3;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.hero-content .cta-button:hover {
+  background-color: #005bb5;
+}
+
+@media (max-width:1410px) {
+  .grid-images {
+
+
+    display: grid;
+  }
+.hero {
+
+    padding-right: 25rem;
+    
+}
+.about p{
+  font-size: 1.5rem;
+}
+.about h2{
+  font-size: 2rem;
+}
+
+  // .content-container {
+
+  //   display: block;
+  // }
+
+  .image-container {
+    flex-direction: column;
+    display: block;
+
+  }
+
+  .main-image-container {
+    justify-content: center;
+  }
+  h1{
+        font-size: 4rem;
+  }
+  
+}
+
+@media (max-width:1200px) {
+ 
+.hero {
+
+    padding-right: 0;
+    
+}
+  .main-image-container {
+    justify-content: center;
+  }
+}
+@media (max-width:700px) {
+  .content-container {
+    gap: 1rem;
+    display: block
+;
+}
+}
+@media (max-width: 850px) {
+  .about p {
+        font-size: 1.1rem;
+            margin-bottom: 20px;
+list-style: circle;
+    }
+//     .content-container {
+//     display: block
+// ;
+// }
+    .grid-images {
+        display: none;
+    }
+    .comming-soon-container h2 {
+    display: none;
+}
+}
+@media (max-width: 900px) {
+     h1 {
+        font-size: 2.5rem;
+    }}
+@media (max-width: 768px) {
+     h1 {
+        font-size: 3.0rem;
+    }
+    
+  .hero {
+    height: 60vh;
+  }
+
+  .hero-content {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .about h2 {
+    font-size: 3rem;
+  }
+
+  .about p {
+
+    margin-right: 0;
+  }
+
+
+
+  .image-container {
+    flex-direction: column;
+
+  }
+
+
+  .main-image-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .coming-soon-container .movies-grid .movie-card video {
+ 
+    width: 100%;
+    height: 90%;
+  
+}
+  .hero {
+         height: 40vh;
+        padding-top: 8rem;
+  }
+  h1{
+            font-size: 2.5rem;
+  }
+  .content-container {
+
+display: block;
+}
+
+  .main-image-container {
+    justify-content: center;
+  }
+.comming-soon-container .movie-card
+
+ {
+  
+    width: auto;
+}
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+
+  .main-image {
+    height: 40vh;
+    margin-left: 2rem;
+  }
+
+  .grid-images img {
+    height: 50vh;
+  }
+}

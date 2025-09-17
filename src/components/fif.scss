@@ -1,0 +1,69 @@
+.fif-logo{
+ max-width: 25vw;
+ margin: 0 auto;
+
+}
+.grid-layout{
+        grid-template-columns: repeat(2, 1fr);
+    display: grid
+;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 2rem;
+}
+.klubhus{
+    margin: 0 auto;
+  max-width: 85vw;
+    padding-top: 2rem;
+}
+.fif-content-div{
+    margin: 0 auto;
+    text-align: center;
+    display: grid
+;
+    max-width: 75vw;
+
+}
+.posts-heading{
+    font-size: 3rem;
+    color: white;
+}
+.posts-text{
+    color: white;
+    padding-top: 1rem;
+}
+.posts-img{
+    max-height: 700px;
+}
+.slider{
+max-width: 85vw;
+    margin: 0 auto;
+}
+.fif-content-div hr{
+    color: white;
+    margin-top: 3rem;
+        padding-bottom: 3rem;
+}
+.fif-content-div video{
+  margin: 0 auto;
+}
+.fif-info-div{
+      animation: 2.5s ease-out fadeIn;
+      display: grid;
+}
+
+
+.posts-heading {
+    color: #fff;
+    font-size: 1.5rem;
+}
+@media (max-width: 480px){
+    .fif-logo{
+max-width: 85vw;
+
+}
+.posts-heading {
+    color: #fff;
+    font-size: 1.5rem;
+}
+}

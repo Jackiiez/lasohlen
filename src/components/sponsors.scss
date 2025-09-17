@@ -1,0 +1,119 @@
+.card__div {
+    grid-column: 2;
+    grid-row: 1;
+    align-content: center;
+}
+.side-img{
+       border-radius: 5%;
+    justify-self: center;
+    align-items: center;
+    gap: 25vw;
+    // max-width: 33vw;
+    min-height: 340px;
+    max-height: 341px;
+    max-width: 25vw;
+    object-fit: cover;
+
+}
+
+
+.side-img-div{
+    display: grid
+;
+    grid-auto-flow: column;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.car-img,.logo-link {
+    grid-row: 2;
+}
+
+.placeholder {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.placeholder {
+    max-width: 250px;
+
+    border-radius: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    min-height: 200px;
+}
+
+.card {
+ max-width: 50%;
+    margin: 0 auto;
+    display: grid
+;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+        gap: 0;
+}
+
+.sponsore-heading {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+     padding-top: 25px;
+
+}
+
+.cardtitle, .cardtext{
+    color: white;
+  margin: 0 auto;
+
+}
+.cardtitle{
+    font-size: 2.5rem;
+}
+a{
+    margin: 0 auto;
+}
+.cards{
+      animation: 2.5s ease-out fadeIn;
+}
+
+@media (max-width: 768px) {
+
+    .card {
+
+        max-width: 100%;
+       justify-content: center;
+        display: grid;
+        gap: 10px;
+    }
+
+    .placeholder {
+        max-width: 250px;
+        margin: 0 auto;
+        margin-bottom: 2.5rem;
+      
+       
+    }
+    .cardtitle{
+        font-size: 34px;
+    }
+    .card__div{
+        grid-column: 1;
+    grid-row: 2;
+    }
+    .cardtitle,.cardtext{
+            text-align: center;
+    }
+    .side-img, .side-img-right{
+        max-width: 90%;
+        max-height: 90%;
+        object-fit: cover;
+    }
+    .side-img-div {
+     grid-auto-flow: row; 
+  gap: 1rem
+;
+  margin: 0 auto;
+}
+}

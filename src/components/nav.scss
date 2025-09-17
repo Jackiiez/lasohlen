@@ -1,0 +1,197 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(95deg, #5E35B1, #7E57C2, #FF6F61);
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    padding: 1rem;
+}
+.navbar-dropdown li{
+    list-style: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.navbar-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+    padding: 0;
+}
+.navbar-link{
+    color: black;
+}
+.navbar-item {
+    text-align: center;
+    flex-grow: 1;
+    position: relative; /* Keep relative for dropdown positioning */
+}
+
+.navbar-item:nth-child(1) { animation-delay: 0.1s; }
+.navbar-item:nth-child(2) { animation-delay: 0.2s; }
+.navbar-item:nth-child(3) { animation-delay: 0.3s; }
+.navbar-item:nth-child(4) { animation-delay: 0.4s; }
+.navbar-item:nth-child(5) { animation-delay: 0.5s; }
+.navbar-item:nth-child(6) { animation-delay: 0.6s; }
+.navbar-item:nth-child(7) { animation-delay: 0.7s; }
+
+.navbar-link {
+    font-size: 1.125rem;
+    padding: 8px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.navbar-link:hover {
+    transform: translateY(-4px);
+    color: white;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    padding: 16px;
+    transition: transform 0.3s ease;
+}
+
+.burger-icon {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.navbar-dropdown {
+    display: none; 
+    position: absolute;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center adjustment */
+    top: 100%;
+    z-index: 100; 
+    background: white; /* Add a background for visibility */
+    border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+    border-radius: 4px; /* Optional: Round the corners */
+}
+
+/* Show dropdown when hovering over the navbar item or the dropdown itself */
+.navbar-item:hover .navbar-dropdown,
+.navbar-dropdown:hover {
+    display: block; /* Keep the dropdown visible */
+}
+
+.navbar-dropdown li {
+    padding: 8px;
+    text-align: center; /* Center text in dropdown items */
+    z-index: 100;
+}
+
+@media (max-width: 500px) {
+    .navbar-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-dropdown {
+        position: static; /* Keep it static for mobile */
+        max-height: 100px; /* Limit height */
+        overflow: hidden; /* Prevent overflow if items exceed max height */
+        margin-left: 50%;
+        min-width: 100px;
+        background: none;
+        border: none;
+    }
+.navbar a{
+        color: black;
+}
+    .navbar-item a p {
+       color: black;
+    }
+
+    .navbar-link {
+        align-self: center;
+    }
+
+    .navbar-dropdown li {
+        padding: 0px;
+    }
+
+    .navbar-item.active .navbar-dropdown {
+        display: block; /* Show dropdown when active */
+    }
+
+    .navbar-item p {
+        font-size: 2rem;
+    }
+
+    .burger-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        z-index: 11;
+        position: fixed;
+        left: 85vw;
+    }
+
+    .navbar {
+        display: none;
+        animation: none;
+        opacity: 1;
+    }
+
+    .navbar-item {
+        animation: none;
+        opacity: 1;
+        display: grid;
+    }
+
+    .contact-info {
+        text-align: center;
+        display: block !important;
+    }
+
+    .navbar.open {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        position: fixed;
+        z-index: 10;
+    }
+
+    .navbar ul {
+        height: 100%;
+    }
+
+    .hero.hidden {
+        display: none; 
+    }
+
+    .heroContent.hidden {
+        display: none;
+    }
+
+    .navbar-dropdown {
+        display: grid; /* Use grid layout for dropdown items */
+        justify-items: center; /* Center items in the dropdown */
+    }
+}

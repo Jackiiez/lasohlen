@@ -1,0 +1,97 @@
+{
+  "sponsors": [
+     {
+      "id": 1,
+      "name": "Select Sport 1947",
+      "img": "1736_x2.jpg",
+  "facebook": "https://facebook.com",
+      "link": "https://dk.select-sport.com/",
+      "car":"bilet.jpg"
+      
+    },
+      {
+      "id": 2,
+      "name": "Jysk Lokal Forsikring",
+      "img": "jysk.jpg",
+  "facebook": "https://facebook.com",
+      "link": "https://jysklokalforsikring.dk/"
+    },
+    
+      {
+      "id": 3,
+      "name": "Prolåse",
+      "img": "prolaase.jpg",
+  "facebook": "Tlf: 31 31 31 79",
+      "link": "Mail: kontakt@prolaase.dk"
+    },
+      {
+      "id": 4,
+      "name": "Fodeksperterne",
+      "img": "fodeksperterne.jpg",
+  "facebook": "https://facebook.com",
+      "link": "https://fodeksperterne.dk/"
+    },
+     {
+      "id": 5,
+      "name": "Frederiksund Fodboldgolf",
+       "text": "⚽️⛳️🕳",
+      "img": "frederikssund-logo_logo-facebook___serialized1.jpg",
+   "facebook": "https://facebook.com",
+      "link": "https://frederikssundfodboldgolf.dk/"
+    },
+     {
+      "id": 6,
+      "name": "Hegnsholt Fodboldgolf",
+       "text": "⚽️⛳️🕳",
+      "img": "hegnholt.jpg",
+   "facebook": "https://facebook.com",
+      "link": "https://www.facebook.com/people/Hegnsholt-Fodboldgolf/61567089463610/?_rdr"
+    },
+    {
+      "id": 7,
+      "name": "Kiropraktor Tom Pihl - Ballerup og Farum",
+      "img": "dsc-0834-tom-2-300x227-1.jpg",
+  "facebook": "https://facebook.com",
+      "link": "https://kiropraktor2750.dk/hvem-er-vi/"
+    },
+ 
+    
+    {
+      "id": 8,
+      "name": "CPH RUN SHOP",
+      "img": "CPHRUNSHOP.jpg",
+     "facebook": "https://facebook.com",
+      "link": "https://cphrunshop.dk/"
+      
+    },
+    {
+      "id": 9,
+      "name": "Real Mælgerne",
+      "img": "images.png",
+        "facebook": "https://facebook.com",
+      "link": "https://www.realmaeglerne.dk/"
+    },
+    {
+      "id": 10,
+      "name": "A SIGN A/S",
+      "img": "AS.jpg",
+   "facebook": "https://facebook.com",
+      "link": "https://a-sign.dk/"
+    },
+    {
+      "id": 11,
+      "name": "Peugeot Vejlebo & Larsen - Holbæk og Roskilde",
+      "img": "vl.jpg",
+   "facebook": "https://facebook.com",
+      "link": "https://vejlebolarsen.dk/"
+    },
+    {
+      "id": 12,
+      "name": "Procopa IT ",
+      "img": "procopa.jpg",
+   "facebook": "https://facebook.com",
+      "link": "https://www.procopa.dk/"
+    }
+ 
+  ]
+}
